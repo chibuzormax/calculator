@@ -66,6 +66,6 @@ function tan() {
 // log function
 function log() {
   let x = document.getElementById("result").value;
-  let y = Math.log();
+  let y = Math.log(x);
   document.getElementById("result").value = y;
 }
